@@ -7,6 +7,11 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.alibaba.fastjson.JSON;
 
+/**
+ * 复杂列的实体类，eg:"column": [{"index": 0,"type": "long"}]
+  * @author 
+  * @date 2021/06/16
+ */
 public class ColumnEntry {
     private Integer index;
     private String type;
